@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Insight &amp; Artikel — BATIKS Konsultan Statistika</title>
+  <meta name="description" content="Artikel dan catatan praktik dari tim BATIKS: panduan memilih uji statistik, menentukan ukuran sampel, membaca korelasi, meramal deret waktu, dan menyusun laporan yang berguna." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,400..700,0..100,0..1;1,9..144,400..700,0..100,0..1&family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="180x180" href="assets/img/favicon-180.png" />
+  <link rel="apple-touch-icon" href="assets/img/favicon-180.png" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div id="header-mount"></div>
+
+  <main>
+    <section class="page-head page-head--truntum">
+      <div class="container page-head__inner">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Beranda</a>
+          <span>/</span>
+          <span>Insight</span>
+        </nav>
+        <h1>Insight &amp; Artikel</h1>
+        <p>Catatan praktik dari pekerjaan sehari-hari kami — ditulis sederhana, tanpa jargon yang tidak perlu.</p>
+      </div>
+    </section>
+
+    <!-- ============ ARTIKEL UTAMA ============ -->
+    <section class="section">
+      <div class="container">
+        <article class="feature-post reveal">
+          <div class="feature-post__cover">
+            <img src="assets/img/illustrations/artikel-uji-statistik.svg" alt="Laporan statistik di atas meja kerja" loading="lazy" />
+          </div>
+          <div class="feature-post__body">
+            <div class="post__meta">
+              <span>Metodologi</span><span class="dot">•</span>
+              <span>12 menit baca</span>
+            </div>
+            <h3>Memilih Uji Statistik yang Tepat: Panduan Praktis untuk Peneliti</h3>
+            <p class="text-muted">
+              Kesalahan paling umum bukan pada perangkat lunak, melainkan pada pemilihan uji. Artikel ini memetakan
+              langkah penentuan uji berdasarkan jenis data, jumlah kelompok, dan asumsi yang harus dipenuhi —
+              dilengkapi contoh soal yang mudah diikuti.
+            </p>
+            <a class="link-arrow" href="#pilih-uji">Baca panduan lengkap</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ DAFTAR ARTIKEL ============ -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Artikel Terbaru</span>
+          <h2>Bacaan untuk pengambil keputusan dan peneliti</h2>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="post reveal">
+            <div class="post__cover">
+              <img src="assets/img/illustrations/artikel-jumlah-responden.svg" alt="Tumpukan kuesioner survei" loading="lazy" />
+            </div>
+            <div class="post__body">
+              <div class="post__meta"><span>Sampling</span><span class="dot">•</span><span>9 menit</span></div>
+              <h3><a href="#jumlah-responden">Berapa Jumlah Responden yang Sebenarnya Cukup?</a></h3>
+              <p>Rumus ukuran sampel sering dikutip tanpa memahami asumsinya. Ini cara menetapkannya secara masuk akal.</p>
+              <a class="link-arrow" href="#jumlah-responden">Baca ringkasan</a>
+            </div>
+          </article>
+
+          <article class="post reveal">
+            <div class="post__cover">
+              <img src="assets/img/illustrations/artikel-korelasi.svg" alt="Layar komputer menampilkan grafik sebar" loading="lazy" />
+            </div>
+            <div class="post__body">
+              <div class="post__meta"><span>Pemodelan</span><span class="dot">•</span><span>11 menit</span></div>
+              <h3><a href="#korelasi">Korelasi Bukan Sebab-Akibat: Empat Jebakan Penafsiran</a></h3>
+              <p>Angka korelasi tinggi mudah menyesatkan. Ini cara memeriksa apakah hubungan tersebut bermakna.</p>
+              <a class="link-arrow" href="#korelasi">Baca ringkasan</a>
+            </div>
+          </article>
+
+          <article class="post reveal">
+            <div class="post__cover">
+              <img src="assets/img/illustrations/artikel-laporan-statistik.svg" alt="Presentasi grafik batang di ruang rapat" loading="lazy" />
+            </div>
+            <div class="post__body">
+              <div class="post__meta"><span>Komunikasi Data</span><span class="dot">•</span><span>7 menit</span></div>
+              <h3><a href="#laporan-statistik">Menyusun Laporan Statistik agar Dibaca Sampai Halaman Terakhir</a></h3>
+              <p>Struktur laporan menentukan apakah temuan Anda dipakai atau diabaikan. Berikut kerangka yang kami pakai.</p>
+              <a class="link-arrow" href="#laporan-statistik">Baca ringkasan</a>
+            </div>
+          </article>
+
+          <article class="post reveal">
+            <div class="post__cover">
+              <img src="assets/img/illustrations/artikel-deret-waktu.svg" alt="Data deret waktu di atas meja" loading="lazy" />
+            </div>
+            <div class="post__body">
+              <div class="post__meta"><span>Peramalan</span><span class="dot">•</span><span>10 menit</span></div>
+              <h3><a href="#deret-waktu">Peramalan Deret Waktu: Kapan ARIMA, Kapan Model Lain?</a></h3>
+              <p>Setiap model punya syarat. Ini panduan ringkas memilih pendekatan sesuai pola data Anda.</p>
+              <a class="link-arrow" href="#deret-waktu">Baca ringkasan</a>
+            </div>
+          </article>
+
+          <article class="post reveal">
+            <div class="post__cover">
+              <img src="assets/img/illustrations/artikel-peta-kendali.svg" alt="Lembar kendali mutu di meja kerja pabrik" loading="lazy" />
+            </div>
+            <div class="post__body">
+              <div class="post__meta"><span>Pengendalian Mutu</span><span class="dot">•</span><span>8 menit</span></div>
+              <h3><a href="#peta-kendali">Peta Kendali untuk Lini Produksi: Dari Teori ke Lantai Pabrik</a></h3>
+              <p>Penerapan peta kendali sering gagal karena tidak melibatkan operator. Ini pelajaran dari lapangan.</p>
+              <a class="link-arrow" href="#peta-kendali">Baca ringkasan</a>
+            </div>
+          </article>
+
+          <article class="post reveal">
+            <div class="post__cover">
+              <img src="assets/img/illustrations/artikel-reproducibility.svg" alt="Peneliti menulis catatan di samping laptop" loading="lazy" />
+            </div>
+            <div class="post__body">
+              <div class="post__meta"><span>Praktik Baik</span><span class="dot">•</span><span>6 menit</span></div>
+              <h3><a href="#reproducibility">Reproducibility: Mengapa Berkas Kerja Anda Harus Ditata Sejak Hari Pertama</a></h3>
+              <p>Analisis yang tidak dapat diulang kehilangan kredibilitasnya. Ini kebiasaan minimal yang kami sarankan.</p>
+              <a class="link-arrow" href="#reproducibility">Baca ringkasan</a>
+            </div>
+          </article>
+        </div>
+
+        <p class="article-count text-center mt-48">Menampilkan seluruh 6 artikel terbaru.</p>
+      </div>
+    </section>
+
+
+    <!-- ============ PANDUAN LENGKAP ============ -->
+    <section class="section article-library" id="panduan-lengkap">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Catatan Praktis</span>
+          <h2>Ringkasan yang bisa langsung diterapkan</h2>
+          <p>Gunakan panduan ini sebagai titik awal. Pilihan metode akhir tetap perlu mempertimbangkan desain penelitian, kualitas data, dan tujuan analisis.</p>
+        </div>
+
+        <article class="article-note reveal" id="pilih-uji">
+          <div class="article-note__meta">Metodologi · Panduan utama</div>
+          <h3>Memilih Uji Statistik yang Tepat: Panduan Praktis untuk Peneliti</h3>
+          <p>Mulailah dari pertanyaan penelitian, bukan dari nama uji atau perangkat lunak. Sebelum memilih metode, pastikan empat hal: apa luaran yang diukur, bagaimana data dikumpulkan, kelompok mana yang dibandingkan, dan kesimpulan seperti apa yang dibutuhkan.</p>
+          <ol>
+            <li><strong>Kenali skala luaran.</strong> Bedakan data numerik, ordinal, kategorik, hitungan, dan waktu-ke-kejadian. Skala ini menentukan keluarga model yang masuk akal.</li>
+            <li><strong>Periksa desain.</strong> Dua kelompok independen berbeda dari pengukuran berpasangan atau pengukuran berulang pada subjek yang sama.</li>
+            <li><strong>Tentukan tujuan.</strong> Menguji perbedaan, mengukur hubungan, dan memprediksi luaran adalah pertanyaan yang berbeda.</li>
+            <li><strong>Evaluasi asumsi dan diagnostik.</strong> Periksa distribusi residual, pencilan, independensi, pola hubungan, serta ukuran sampel; jangan memilih uji hanya dari satu tes normalitas.</li>
+          </ol>
+          <div class="article-note__callout"><strong>Ingat:</strong> nama uji yang sama dapat menjawab parameter yang berbeda. Laporkan ukuran efek dan selang kepercayaan, bukan hanya nilai-p.</div>
+        </article>
+
+        <article class="article-note reveal" id="jumlah-responden">
+          <div class="article-note__meta">Sampling · Perencanaan penelitian</div>
+          <h3>Berapa Jumlah Responden yang Sebenarnya Cukup?</h3>
+          <p>Ukuran sampel sebaiknya ditentukan dari analisis utama yang akan dilakukan. Angka yang terlihat besar belum tentu memadai jika efek yang ingin dideteksi kecil, desainnya berkelompok, atau tingkat nonrespons tinggi.</p>
+          <ul>
+            <li>Tentukan luaran utama dan efek minimum yang masih bermakna secara substantif.</li>
+            <li>Tetapkan tingkat signifikansi dan power yang diinginkan sebelum pengumpulan data.</li>
+            <li>Sesuaikan perhitungan dengan desain: stratifikasi, klaster, pengukuran berulang, atau perbandingan beberapa kelompok.</li>
+            <li>Tambahkan cadangan untuk nonrespons, data tidak lengkap, dan unit yang tidak memenuhi kriteria.</li>
+          </ul>
+          <p class="article-note__callout"><strong>Hindari:</strong> memakai satu rumus populer untuk semua penelitian. Dokumentasikan asumsi perhitungan agar ukuran sampel dapat ditinjau kembali.</p>
+        </article>
+
+        <article class="article-note reveal" id="korelasi">
+          <div class="article-note__meta">Pemodelan · Interpretasi hasil</div>
+          <h3>Korelasi Bukan Sebab-Akibat: Empat Jebakan Penafsiran</h3>
+          <p>Korelasi menggambarkan pola keterkaitan, tetapi tidak dengan sendirinya membuktikan bahwa satu variabel menyebabkan perubahan pada variabel lain. Hubungan yang kuat pun dapat dipengaruhi faktor ketiga atau arah sebab-akibat yang terbalik.</p>
+          <ul>
+            <li><strong>Variabel perancu:</strong> faktor lain dapat memengaruhi kedua variabel yang diamati.</li>
+            <li><strong>Arah hubungan:</strong> data potong lintang sering tidak cukup untuk memastikan urutan sebab dan akibat.</li>
+            <li><strong>Pencilan:</strong> beberapa titik ekstrem dapat mengubah koefisien korelasi secara besar.</li>
+            <li><strong>Pola nonlinier:</strong> koefisien yang kecil tidak selalu berarti tidak ada pola hubungan.</li>
+          </ul>
+          <p class="article-note__callout"><strong>Langkah awal:</strong> lihat diagram pencar, periksa kualitas data, tampilkan selang kepercayaan, dan jelaskan batas interpretasi.</p>
+        </article>
+
+        <article class="article-note reveal" id="laporan-statistik">
+          <div class="article-note__meta">Komunikasi Data · Pelaporan</div>
+          <h3>Menyusun Laporan Statistik agar Dibaca Sampai Halaman Terakhir</h3>
+          <p>Laporan yang baik membuat pembaca memahami keputusan apa yang perlu diambil dan seberapa kuat bukti yang mendukungnya. Letakkan pesan utama di depan, lalu sediakan rincian metodologi bagi pembaca yang ingin memeriksa prosesnya.</p>
+          <ul>
+            <li>Mulai dengan ringkasan eksekutif: pertanyaan, temuan utama, dan implikasi.</li>
+            <li>Jelaskan sumber data, definisi variabel, proses pembersihan, dan metode yang digunakan.</li>
+            <li>Sajikan ukuran efek, satuan, jumlah observasi, dan selang kepercayaan bila relevan.</li>
+            <li>Nyatakan keterbatasan, asumsi, dan hal yang belum dapat disimpulkan.</li>
+            <li>Pisahkan rekomendasi dari hasil statistik dan lampirkan tabel rinci atau berkas kerja.</li>
+          </ul>
+          <p class="article-note__callout"><strong>Prinsip visual:</strong> satu grafik sebaiknya menjawab satu pertanyaan, memiliki label yang jelas, dan tidak menghilangkan konteks.</p>
+        </article>
+
+        <article class="article-note reveal" id="deret-waktu">
+          <div class="article-note__meta">Peramalan · Deret waktu</div>
+          <h3>Peramalan Deret Waktu: Kapan ARIMA, Kapan Model Lain?</h3>
+          <p>ARIMA dapat menjadi titik awal ketika pola historis cukup informatif dan struktur deret waktu dapat dimodelkan dengan pendekatan autoregresif serta moving average. Namun, pola musiman, perubahan struktural, dan variabel eksternal dapat menuntut pendekatan lain.</p>
+          <ul>
+            <li>Pastikan frekuensi pengamatan konsisten dan periksa nilai hilang serta pencilan.</li>
+            <li>Amati tren, musiman, dan perubahan pola; pertimbangkan differencing jika diperlukan.</li>
+            <li>Bandingkan model dengan baseline sederhana menggunakan pemisahan data berdasarkan waktu.</li>
+            <li>Nilai kesalahan ramalan pada periode uji dan tampilkan interval prediksi, bukan hanya satu angka.</li>
+          </ul>
+          <p class="article-note__callout"><strong>Catatan:</strong> model paling rumit belum tentu paling akurat. Pilih model yang stabil, dapat dievaluasi, dan sesuai dengan horizon keputusan.</p>
+        </article>
+
+        <article class="article-note reveal" id="peta-kendali">
+          <div class="article-note__meta">Pengendalian Mutu · Operasional</div>
+          <h3>Peta Kendali untuk Lini Produksi: Dari Teori ke Lantai Pabrik</h3>
+          <p>Peta kendali membantu membedakan variasi proses yang wajar dari sinyal yang perlu diselidiki. Agar berguna, data harus dicatat berurutan menurut waktu dan definisi pengukurannya konsisten.</p>
+          <ul>
+            <li>Pilih jenis peta sesuai karakteristik data: variabel kontinu, proporsi cacat, jumlah cacat, atau pengukuran individual.</li>
+            <li>Gunakan batas kendali yang dihitung dari proses dan periode dasar yang layak.</li>
+            <li>Selidiki pola atau sinyal khusus; jangan mengubah setelan proses hanya karena satu titik bergerak sedikit.</li>
+            <li>Libatkan operator untuk menghubungkan sinyal statistik dengan kondisi proses di lapangan.</li>
+          </ul>
+          <p class="article-note__callout"><strong>Urutan penting:</strong> nilai kestabilan proses terlebih dahulu sebelum menilai kapabilitas proses terhadap spesifikasi.</p>
+        </article>
+
+        <article class="article-note reveal" id="reproducibility">
+          <div class="article-note__meta">Praktik Baik · Tata kelola analisis</div>
+          <h3>Reproducibility: Mengapa Berkas Kerja Anda Harus Ditata Sejak Hari Pertama</h3>
+          <p>Analisis yang dapat diulang memudahkan pemeriksaan, pembaruan, dan serah terima. Kebiasaan ini dimulai dari struktur kerja yang sederhana, bukan dari perangkat yang rumit.</p>
+          <ul>
+            <li>Simpan data mentah sebagai salinan baca-saja dan dokumentasikan setiap perubahan.</li>
+            <li>Gunakan kamus data untuk definisi variabel, satuan, kode kategori, dan penanda nilai hilang.</li>
+            <li>Pisahkan skrip, data olahan, keluaran, dan dokumentasi; hindari mengedit hasil secara manual tanpa jejak.</li>
+            <li>Catat versi perangkat lunak/paket, parameter penting, dan random seed jika analisis memakai proses acak.</li>
+            <li>Sertakan README berisi urutan menjalankan analisis dan aturan akses untuk data sensitif.</li>
+          </ul>
+          <p class="article-note__callout"><strong>Hasil akhirnya:</strong> orang lain dapat memahami bagaimana angka di laporan dihasilkan, tanpa harus menebak langkah yang pernah dilakukan.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="cta-band reveal">
+          <div>
+            <h2>Butuh pendapat untuk kasus spesifik Anda?</h2>
+            <p>Artikel bersifat umum. Untuk data Anda, kami perlu melihat konteksnya lebih dulu.</p>
+          </div>
+          <div class="cta-band__actions">
+            <a class="btn btn--primary" href="kontak.html">Tanya Tim BATIKS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-mount"></div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
